@@ -9,3 +9,17 @@ Para chequear estado del git
 3 git add .
 Esto permite agregar las modificaciones que hayamos hecho.
 
+4 git commit -m
+ First commit
+
+5 Ramas
+
+$ git branch
+* main (Master)
+
+
+$ git checkout mi-rama / para cambiar de main a la rama creada. 
+$ git checkout main / mi-rama
+
+7 git branch - borra rama
+
