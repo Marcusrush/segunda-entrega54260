@@ -1,0 +1,24 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgb(4, 231, 182);
+}
+
+.header1 {
+	background-color: rgb(6, 161, 161);
+        display: inline-block;
+        text-align: center;
+    
+
+}
+
+a {
+	color: rgb(0, 0, 0);
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	text-decoration: 1;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.menu { background-color:aquamarine ;
+
+}   

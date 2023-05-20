@@ -1,0 +1,11 @@
+Trabajar con git:
+
+1 Git init
+Al iniciar git, una sola vez
+
+2 Git status
+Para chequear estado del git
+
+3 git add .
+Esto permite agregar las modificaciones que hayamos hecho.
+
