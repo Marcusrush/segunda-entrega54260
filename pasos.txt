@@ -23,3 +23,11 @@ $ git checkout main / mi-rama
 
 7 git branch - borra rama
 
+
+
+
+
+.px { font-size: 1rem; = 16/px}
+
+.rem {font-size: 1 rem; / 1 rem= 16 px}
+

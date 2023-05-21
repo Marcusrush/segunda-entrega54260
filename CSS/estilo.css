@@ -1,24 +1,136 @@
+/* el * es un selector universal*/
+
+* {
+	margin: 20;
+	padding: 0;
+}
+
+
 body{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: rgb(4, 231, 182);
 }
 
-.header1 {
-	background-color: rgb(6, 161, 161);
-        display: inline-block;
-        text-align: center;
-    
-
+.Paq {
+	margin-left: 35%;
+	margin-bottom: 0%;
+;
 }
+
+
+
+.header1 {
+    background-color: blue;
+	position:sticky;
+	top: 10px;
+	
+
+	
+} 
+
+
+.menu1 li {
+	display: inline;
+	}
+
 
 a {
-	color: rgb(0, 0, 0);
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: 600;
-	text-decoration: 1;
-	font-size: 1.2rem;
-	line-height: 2rem;
+	color: rgb(5, 5, 5);
+	font-family: 'Roboto', sans-serif;
+	
+	
 }
-.menu { background-color:aquamarine ;
+.menu { background-color:rgb(127, 214, 255) ;
+		
 
 }   
+
+/*recetas*/
+
+.recetas {
+	background-color: coral;
+	margin-bottom: 0px;
+	width: 404px;
+	padding: 0px;
+	text-align:center
+	
+}
+
+.card {
+	background-color: blueviolet;
+	margin-top: 0px ;
+	width: 402px;
+	height: 500px;
+	padding: 0px;
+	border: solid 1px; color:rgb(1, 7, 0);
+	color: black;
+	background-color: rgb(13, 126, 120);
+	
+
+}
+
+.card img {
+	width: 250px;
+	display:block;
+	margin: auto;
+}
+
+.oferta {
+	background-color: rgb(238, 241, 15);
+	color:blueviolet;
+	position: absolute;
+	height: 28px;
+	top: 10px;
+	right: 0px;
+	top: -45px;
+}
+
+.carrito {
+	text-align: center;
+}
+
+
+.pir {
+	max-width: 100%;
+}
+
+.Img1 {
+	height: 150px;
+	border-radius: 100px;
+	margin-top: 0px;
+	
+	
+}
+
+
+
+/* margin */
+
+/*ATAJO */
+
+.atajo-margen {
+	margin: 50px 10px 10px 5px;
+	background-color: cornsilk;
+	padding:0px
+}
+      /* Top - Right - Botom - Left */
+
+	  /*padding*/
+
+	  
+.whatsapp {
+	position: fixed;
+	width: 50px;
+	bottom: 0;
+	right: 0;
+	
+
+
+}
+
+.Enlace2 {
+	bottom: 0px;
+}
+
+
+
