@@ -6,25 +6,73 @@
 }
 
 
-body{
+body {
 	font-family: 'Roboto', sans-serif;
 	background-color: rgb(4, 231, 182);
+	
 }
 
 .Paq {
 	margin-left: 35%;
 	margin-bottom: 0%;
-;
+
+}
+
+.grid-contanier {
+	display: grid;
+	background-color: rgb(122, 122, 218);
+	grid-template-columns: auto;
+	column-gap: 5px;
+	row-gap: 5px;
+	max-inline-size: 80%;
+	
+	
+	
+	
+}
+
+.nombre{
+	text-align: center;
+	max-width: 80%;
+}
+
+.correo{
+	text-align: center;
+	max-width: 80%;
+}
+
+.numero{
+	text-align: center;
+}
+
+.pasajeros{
+	text-align: center;
+}
+
+.naciminento{
+	text-align: center;
+}
+
+.viaje {
+	text-align:center;
+}
+
+.mensaje{
+	text-align: center;
+}
+
+.eyl{
+	text-align: center;
 }
 
 
 
 .header1 {
     background-color: blue;
-	position:sticky;
-	top: 10px;
+	position:sticky; 
+	top: 0px;
+	max-width: 100%;
 	
-
 	
 } 
 
@@ -45,19 +93,43 @@ a {
 
 }   
 
-/*recetas*/
 
-.recetas {
-	background-color: coral;
-	margin-bottom: 0px;
-	width: 404px;
-	padding: 0px;
-	text-align:center
+.cards {
+	display: flex;
+	flex: 50%;
 	
 }
 
+.paris {
+	background-color: coral;
+	margin-bottom: 0px;
+	width: 400px;
+	padding: 0px;
+	text-align:center;
+	border: solid 1px; color:rgb(1, 7, 0);
+	color: black;
+	max-width: 100%;
+	
+}
+
+.Italia {
+	background-color: rgb(21, 151, 112);
+	margin-bottom: 0px;
+	width: 400px;
+	padding: 0px;
+	text-align:center;
+	border: solid 1px; color:rgb(1, 7, 0);
+	color: black;
+	max-width: 100%;
+	
+	
+	
+}
+
+
 .card {
-	background-color: blueviolet;
+	display: flex;
+	background-color: rgb(226, 214, 43);
 	margin-top: 0px ;
 	width: 402px;
 	height: 500px;
@@ -65,8 +137,8 @@ a {
 	border: solid 1px; color:rgb(1, 7, 0);
 	color: black;
 	background-color: rgb(13, 126, 120);
+	position:static;
 	
-
 }
 
 .card img {
@@ -78,11 +150,9 @@ a {
 .oferta {
 	background-color: rgb(238, 241, 15);
 	color:blueviolet;
-	position: absolute;
-	height: 28px;
-	top: 10px;
-	right: 0px;
-	top: -45px;
+	position:static;
+	left: 263px;
+	top: -50px;
 }
 
 .carrito {
@@ -94,12 +164,27 @@ a {
 	max-width: 100%;
 }
 
+.des { max-width: 100%;
+
+}
+
+.mundo { max-width: 100%;
+
+}
+
 .Img1 {
-	height: 150px;
+	height: 100px;
 	border-radius: 100px;
-	margin-top: 0px;
-	
-	
+	max-width: 100%;
+	width: 1200px;	
+}
+
+.italia {
+	max-width: 100%;
+}
+
+.paris {
+	max-width: 100%;
 }
 
 

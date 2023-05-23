@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/estilo.css">
     <title>Formulario</title>
 </head>
-<body>
-    <header class="header1">
+<body class="container caja-Boostrap">
+    
+    <header id="arriba" class="header1">
         <a href="../index.html">
             <h1>Formulario</h1>
         <img class="Img1" src="../IMG/inicio.png" alt=""width="700">
@@ -39,7 +42,7 @@
 
     <section>
         <article>
-        <h1>Consulte su viaje a medida</h1>
+        <h2>Consulte su viaje a medida</h2>
 
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam iure tempore deleniti qui, recusandae, ea earum minus vitae,
        </p>
@@ -49,30 +52,30 @@
     </section>
 
     <section>
-        <h1>Complete el formulario para poder enviarles una cotización</h1>
+        <h2>Complete el formulario para poder enviarles una cotización</h2>
 
-        <form>
-           <div>
-            <label for="Nombre-apellido"></label>
+        <form class="grid-contanier">
+        <div class="nombre">
+            <label for="Nombre-apellido" class="Nombre-apellido">Nombre y apellido</label>
             <input type="text" id="Nombre-apellido" 
             placeholder="Ingresa tu Nombre" required>
             
         </div>
 
-        <div>
-            <label for="Correo electronico"></label>
+        <div class="correo">
+            <label for="Correo electronico">Email</label>
             <input type="email" id="Correo electronico"
             placeholder="email" required">
         </div>
 
-        <div>
-            <label for="Numero telefono"></label>
+        <div class="numero">
+            <label for="Numero telefono">Numero telefonico</label>
             <input type="tel" id="Numero telefono" 
             placeholder="Celular" required>
                  
         </div>
 
-        <div>
+        <div class="pasajeros">
             <label for="Pasajeros">Cuantos pasajeros?</label>
             <select id="Pasajeros" >
                 <option>1 PASAJERO</option>
@@ -84,14 +87,14 @@
             </select>
         </div> 
                 
-        <div>
+        <div class="naciminento">
             <label for="Nacimiento">Fecha de naciminento</label>
             <input type="date" name="" id="">
         </div>
 
        
 
-        <div>
+        <div class="viaje">
             <label for="Viaje">Fecha de viaje:</label>
             <p>Inicio:</p>
             <input type="date" name="" id="">
@@ -99,12 +102,12 @@
             <input type="date" name="" id="">
         </div>
         
-        <div>
+        <div class="mensaje">
             <label for="mensaje">Dejanos tu mensaje</label>
             <textarea id="mensaje" cols="20" rows="1"></textarea>    
         </div>
 
-        <div>
+        <div class="eyl">
             <input type="submit" value="Enviar">
             <input type="reset" value=" Limpiar" id="">
         </div>
@@ -113,11 +116,18 @@
     </section>
 
 
-     <footer>
-        <img src="../IMG/desierto.png" alt="">
+    <footer>
+        <img class="des" src="../IMG/desierto.png" alt="">
     </footer>
+
+    
     <li>
         <a href="../Pages/formulario.html">Contacto</a>
     </li>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+    
+    
 </body>
 </html>
